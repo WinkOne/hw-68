@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
 
-class App extends Component {
-  render() {
-    return (
-      <BurgerBuilder />
-    );
-  }
-}
+const App = () => (
+  <BurgerBuilder />
+);
 
 export default App;
